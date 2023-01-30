@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,6 +18,29 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+      }
+      img {
+        width: 400px;
+        height: 650px;
+        margin-right: 100px;
+        margin-left: 100px;
+        float: left;
+
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+      }
+      .text1 {
+        text-align: left;
+      }
+      .text2 {
+        text-align: right;
+      }
+      .text3 {
+        text-align: center;
       }
       .container {
         max-width: 1200px;
@@ -44,28 +68,25 @@
       }
     </style>
   </head>
-    <body>
+  <body>
     <header>
       <h1>Jovin's Programming Portfolio</h1>
       <nav>
         <a href="./about.html">About</a> |
         <a href="./projects.html">Projects</a> |
         <a href="./contact.html">Contact</a> |
-        <a href="./index.html">Home</a>  
+        <a href="./index.html">Home</a>
       </nav>
     </header>
     <main>
-      <div class="container1">
-        <section id="projects">
-          <h2>  My Projects</h2>
-          <!-- Add information about your programming projects here -->
-          <div class="project">
-            <h2>Parametric Equations: Tangent and Normal Lines</h2>
-            <p>Using a parametric equation, I calculated the changing slope and graphed the tangent and normal lines with said slope at each point.</p>
-            <p>Technologies used: Python</p>
-            <p><a href="https://py3.codeskulptor.org/#user307_TZNLpO8dqW_3.py">View project</a></p>
-          </div>
-        </section>
+      <div class="container">
+        <img src='/users/jovinheir/documents/jheir.github.io/IMG_4953.png' alt='My amazing picture'>
+        <div>
+        <h2 class="text1"><a href="./about.html">About Me</a> <p>A short description of me</p> </h2>
+        <h2 class="text1"> <a href="./projects.html"> Projects</a> <p>  Things I've been working on</p> </h2>
+        <h2 class="text1"><a href="./contact.html"> Contact</a> <p> Get in touch</p></h2>
+      </div>
+        
       </div>
     </main>
     <footer>
